@@ -1,5 +1,6 @@
-export {default as About} from './About'
 export {default as Home} from './Home'
-export {default as Contact} from './Contact'
 export {default as ProductItem} from './ProductItem'
 export {default as Products} from './Products'
+export {default as NavBar} from './NavBar'
+export {default as Slider} from './Slider'
+export {default as Footer} from './Footer'

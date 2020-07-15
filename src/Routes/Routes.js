@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import {About,Home,Contact,ProductItem,Products} from '../components'
-import NavBar from '../components/NavBar'
+import {Home,ProductItem,Products,NavBar} from '../components'
+
 function Routes() {
   return (
     <Router>
@@ -11,12 +11,7 @@ function Routes() {
         <Route exact path="/">
             <Home/>
         </Route>
-        <Route path="/about">
-            <About/>
-        </Route>
-        <Route path="/contact">
-            <Contact/>
-        </Route>
+
         <Route exact  path="/product">
             <Products/>
         </Route>
