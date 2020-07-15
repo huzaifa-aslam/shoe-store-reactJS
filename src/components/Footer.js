@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "./Slider";
 import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {

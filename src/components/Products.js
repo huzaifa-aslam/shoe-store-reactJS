@@ -7,10 +7,12 @@ import cx from 'classnames'
 
 function Products() {
 
-  console.log(Shoes);
+
+
+
   return (
     <Container>
-       <h1>Welcome to Our Products</h1>
+       <h1  className="text-center p-3">Our Products</h1>
       <Row className={styles.flex}>
 
         {Object.keys(Shoes).map((keyName, ind) => {
@@ -34,7 +36,7 @@ function Products() {
                     <Card.Text>
                      {`PKR ${shoe.price}`}
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">Add to Cart</Button>
                   </Card.Body>
                 </Card>
               </Link>
