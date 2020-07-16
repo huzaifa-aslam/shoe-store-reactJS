@@ -40,7 +40,7 @@ function ProductItem() {
             </Card>
           </Col>
           <Col lg={6} md={6} sm={12} xs={12}>
-          <Card style={{ width: "16rem" }}>
+          <Card >
 
               <Card.Body>
                 <Card.Title>{shoe.name}</Card.Title>

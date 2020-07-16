@@ -26,7 +26,7 @@ function Products() {
               <Link to={`/product/${keyName}`}>
                 {/* <h3>{shoe.name}</h3>
                 <img src={shoe.img} height="100px" /> */}
-                <Card style={{ width: "16rem" }} >
+                <Card style={{ width: "16rem" }}  className="m-auto">
                   <Card.Img variant="top"   className={cx(styles.imgWidth)} src={shoe.img} />
                   <Card.Body>
                     <Card.Title>{shoe.name}</Card.Title>
